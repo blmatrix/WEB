@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>HTML7. Formos elementai</title>
+  </head>
+  <body>
+    <fieldset>
+      <legend>Jusu informacija</legend>
+      <table>
+        <tr>
+          <td><label>Vardas:</label></td>
+          <td><input type="text"></td>
+        </tr>
+        <tr>
+          <td><label for="">Pavarde:</label></td>
+          <td><input type="text"></td>
+        </tr>
+      </table>
+    </fieldset>
+
+    <fieldset>
+      <legend>Klausimai</legend>
+      <p>Kaip suzinojote apie mus?
+        <select>
+          <option value="Google">Google</option>
+          <option value="Yandex">Yandex</option>
+          <option value="Bing">Bing</option>
+        </select>
+      </p>
+      <table>
+        <tr>
+          <td colspan="3">Ar apsilankysite vel?</td>
+        </tr>
+        <tr>
+          <td><input type="radio">Taip</td>
+          <td><input type="radio">Ne</td>
+          <td><input type="radio">Galbut</td>
+        </tr>
+      </table>
+      <br>
+
+      Ka manote apie kursa?<br>
+      <textarea rows="8" cols="100" placeholder="Rasykite viska ka galvojate"></textarea>
+      <br><br>
+
+      Pazymekite programavimo/zymejimo kalbas su kuriomis esate susipazine:
+      <table>
+        <tr>
+          <td><input type="checkbox">C#</td>
+          <td><input type="checkbox">JAVA</td>
+          <td><input type="checkbox">PHP</td>
+        </tr>
+        <tr>
+          <td><input type="checkbox">HTML</td>
+          <td><input type="checkbox">CSS</td>
+          <td><input type="checkbox">JavaScript</td>
+        </tr>
+        <tr>
+          <td><input type="checkbox">Python</td>
+          <td><input type="checkbox">Ruby</td>
+        </tr>
+      </table>
+      <br><br>
+      <input type="submit" value="Siusti">
+    </fieldset>
+  </body>
+</html>

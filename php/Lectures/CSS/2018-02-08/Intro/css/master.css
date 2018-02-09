@@ -1,0 +1,60 @@
+/*
+Update CSS font
+*/
+
+@font-face {
+  font-family: new_font;
+  src: url('fonts/new_font.otf');
+}
+
+/*
+CSS for a specific elements
+*/
+
+p {
+  margin: 10px;
+}
+
+/*
+CSS for a specific Class
+*/
+
+.second {
+  font-family: Verdana, Wingdings, monospace;
+}
+
+/*
+CSS for a specific ID
+*/
+
+#aa {
+ text-align: center;
+}
+
+/*
+CSS for all elements
+*/
+
+* {
+  color: red;
+}
+
+/*
+CSS for all id's
+*/
+
+[id] {
+
+}
+
+/*
+CSS for all id's
+*/
+
+[id^="log"] {
+
+}
+
+[id~="log"] {
+  
+}
