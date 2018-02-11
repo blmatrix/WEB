@@ -1,0 +1,17 @@
+html1. <p align+"justify">Lorem <-- kas èia prie paskutinës pastraipos? Visa kita OK.
+html2. OK. Nëra lietuviðkø raidþiø
+html3. OK.
+html4. Nereikia br po paveiksliukom figure ir figurecaption tandemas pats viskà padaro.
+html5. OK
+html6. OK
+html7. Radio buttons blogai. Turi pasiþymëti tik vienas. Visa kita atrodo OK..
+html8. Blogai, nes nurodytas absoliutinis adresas, kuriame yra kompiuterio IP - kuriame projektas padarytas, o tai reiðkia perkëlus svetainæ, niekur kitur daugiau neveiks.
+html9. OK.
+html10. OK
+html11. Blogai. Kiekviena savaitë turi bûti talpinama div elemente, o diena span elemente. Tada nereiks br.
+html12. Ir  vël lokaliems linkamas naudojamas absoliutinis adresas.
+php1. OK
+php2. OK
+php3. Kodël vaisiø sàraðas yra skaièiai? Turi bûti vaisiai.
+php13. OK
+css1. Nepadarytas?
