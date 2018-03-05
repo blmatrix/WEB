@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script>
+      // panašu į json
+      var car1 = {
+        year: 2015,
+        make: "Toyota",
+        model: "Corolla",
+        getDescription: function(){
+          return "Transporto priemonė " + this.make + " " + this.model + ". Pagaminta " + this.year;
+        }
+      };
+
+      console.log(car1.getDescription());
+
+      var jsonArray = [
+        {"name": "Jonas", "surname": "Jonaitis", "age": "25"},
+        {"name": "Petras", "surname": "Petraitis", "age": "38"},
+        {"name": "Kazys", "surname": "Kazaitis", "age": "18"},
+        {"name": "Antanas", "surname": "Antanaitis", "age": "55"},
+        {"name": "Bronius", "surname": "Bronislavas", "age": "47"}
+      ];
+
+      for (var i = 0; i < jsonArray.length; i++) {
+        console.log(jsonArray[i].name);
+      }
+
+    </script>
+  </body>
+</html>

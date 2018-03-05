@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script>
+      // var pirmas = 0;
+      // var antras = "";
+      // var trecias = NaN;
+      // var ketvirtas = null;
+      // var penktas = undefined;
+      // var sestas = "Apibreztas";
+      //
+      // var result = pirmas || antras || sestas || ketvirtas || penktas;
+      //
+      // alert(result);
+      // real life example
+      // var name = "";
+      // alert("Sveiki, " + (name || "pone!"));
+
+      // if(undefined === null){
+      //   alert("true");
+      // }
+      // if(1 === "1"){
+      //   alert();
+      // }
+
+
+      var retries = 0;
+      do{
+        retries++;
+        var slaptazodis = prompt('Iveskite slaptazodi. Tai yra jūsų ' + retries + ' bandymas.', '');
+
+      } while(slaptazodis != 'qwerty123' && retries < 3);
+
+      if(retries < 3){
+        alert('Jūs patekote į sistemą.');
+      }
+      else{
+        alert('Jūs užblokuotas amžiams!');
+      }
+
+
+
+
+    </script>
+  </head>
+  <body>
+
+  </body>
+</html>

@@ -1,0 +1,87 @@
+header, footer, article, nav, aside, section{
+  float: left;
+}
+
+header, footer, article{
+  width: 100%;
+}
+
+nav, aside{
+  width: 20%;
+}
+section{
+  width: 60%;
+}
+
+section>div.box{
+  overflow: auto;
+}
+
+div.box{
+  border: 1px solid black;
+  margin: 5px;
+}
+
+header>div.box h1{
+  text-align: center;
+}
+
+.menu{
+  padding-left: 0px;
+}
+
+/* nav>div.box ul{ */
+.menu{
+  list-style-type: none;
+}
+
+.menu li{
+  padding: 10px;
+  padding-left: 20px;
+}
+
+.menu li:hover{
+  background-color: red;
+}
+/* nav>div.box ul li a{ */
+.menu a{
+  text-decoration: none;
+}
+
+article img{
+  border-radius: 80px;
+  width: 200px;
+  margin: 5px;
+  box-shadow: 0px 0px 50px black;
+  float: right;
+}
+/*
+  min-width reiskia nuo
+  max-width reiskia iki
+
+*/
+@media screen and (max-width:600px){
+  header, footer, article{
+    width: 100%;
+  }
+
+  nav, aside{
+    width: 100%;
+  }
+  section{
+    width: 100%;
+  }
+  .menu li{
+    float: left;
+  }
+  nav>div.box{
+    overflow: auto;
+  }
+  article img{
+    border-radius: 80px;
+    width: 60%;
+    margin: 5px;
+    box-shadow: 0px 0px 50px black;
+
+  }
+}

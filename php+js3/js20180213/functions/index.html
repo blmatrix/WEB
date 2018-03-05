@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <input type="text" id="y" value="">
+    <input type="button" id="mygtukas" name="" value="+">
+    <input type="button" id="mygtukas2" name="" value="-">
+    <input type="button" id="mygtukas3" name="" value="/">
+    <script src="js/master.js">
+
+    </script>
+    <script type="text/javascript">
+      document.getElementById("mygtukas").addEventListener("click",  function(){
+        alert(add(1, document.getElementById("y").value, 1));
+      });
+
+
+      document.getElementById("mygtukas2").addEventListener("click",  function(){
+        alert(substract(1, document.getElementById("y").value));
+      });
+
+      document.getElementById("mygtukas3").addEventListener("click",  function(){
+        alert(division(10, document.getElementById("y").value));
+      });
+    </script>
+  </body>
+</html>

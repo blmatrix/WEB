@@ -1,0 +1,20 @@
+{
+    "name": "robert/pac",
+    "description": "some description here",
+    "type": "test",
+    "license": "GPU",
+    "authors": [
+        {
+            "name": "Robert Demidov",
+            "email": "mount.dem@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\Controllers\\": "application/controllers/",
+            "Framework\\": "core/"
+        }
+    }
+}

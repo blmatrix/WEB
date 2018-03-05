@@ -1,0 +1,23 @@
+*{
+    font-family: Arial;
+}
+
+p{
+  border-radius: 10px;
+}
+
+#blogas1{
+  color:red;
+}
+
+[class$="pirmas"]{
+  background-color: red;
+}
+
+h1, p{
+
+}
+
+p.antras{
+  
+}
